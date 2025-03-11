@@ -1,0 +1,40 @@
+ <div class="saved">
+<img src="file:///Users/josephkanizay/Desktop/3823d64e83bf6851b81c5f29c0503875.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/9cec6f4e97d4273c2b66adb64d5cb569.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/9f6a2a60ffa5917db5563e1374d4ca45.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/d9db8c2cb163eb02bda77b6d11bef998.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/d01fda30db8f712e461896a6f7d8cf34.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/fb985b92b47081aec1a7cd0cd96247f9.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/ea2c85a2534da4b1ee8e46e47a32cf41.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/af8d64583ce3ec3733973d1cd5acd6b4.jpg" width="250px" height="250px" alt="one moment" class="image">
+<img src="file:///Users/josephkanizay/Desktop/VASTE/icons/Your%20Saved%20Items%20(placeholder).jpg" width="250px" height="250px" alt="one moment" class="image">
+ </div>
+
+ .bagged {
+ display: grid;
+ grid-auto-flow: column;
+ Overflow-x: auto;
+ scrollbar-color: #EAE7E4 #f4f0ec;
+}
+
+.image {
+ max-width: 250px;
+ Border-radius: 25px;
+ margin: 25px;
+ Object-fit: cover;
+}
+
+.container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;  /* Ensures it takes full width of the parent */
+ background-color: #c5a787;
+ padding-top: 25px;
+ padding-bottom: 25px;
+        }
+
+.left-buttons, .right-buttons {
+ display: flex;
+ gap: 10px;
+        }
