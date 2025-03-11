@@ -27,7 +27,7 @@ export default {
   display: flex;
   box-sizing: border-box;
   width: 100%;
-  background: white;
+  background: transparent;
   padding: 8px 20px;
   font-size: 15px;
   font-weight: 500;
