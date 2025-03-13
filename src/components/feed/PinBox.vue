@@ -16,7 +16,7 @@
   box-sizing: border-box;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
-  border-radius: 32px;
+  border-radius: 6px;
   margin-top: 25px;
   margin-bottom: 50px;
   position: relative;
